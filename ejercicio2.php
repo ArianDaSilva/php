@@ -2,7 +2,7 @@
 
 if($_POST){ // Si hubo envio se imprime el nombre.
 
-// Recibir información del formulario HTML (Método POST)
+// Recibir información del formulario HTML (Método POST).
 $nombre=$_POST['txtNombre'];
 
 echo "Hola, ".$nombre;
